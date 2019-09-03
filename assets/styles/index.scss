@@ -1,0 +1,241 @@
+@import "inter";
+
+body {
+  border-top: 0.35rem solid #c00c2b;
+  background-color: #120e14;
+  overflow-x: hidden;
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2.5s; /* Firefox < 16 */
+  -ms-animation: fadein 2.5s; /* Internet Explorer */
+  -o-animation: fadein 2.5s; /* Opera < 12.1 */
+  animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h2 {
+  color: #e8e8e8;
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: -4.5%;
+  line-height: 24px;
+  letter-spacing: -0.045em;
+  font-size: 20px;
+}
+
+.container-hero {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+  .hero-left {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+
+    .hero {
+      width: 100%;
+      //   clip-path: url(#c1);
+    }
+  }
+
+  .hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+
+    .hero-right-top {
+      margin-top: 20%;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .logo {
+        // width: 30%;
+        width: 269px;
+      }
+
+      .sign-up {
+        background-color: transparent;
+        border: 1px solid #e8e8e8;
+        color: #e8e8e8;
+        border-radius: 12px;
+
+        margin-top: 27px;
+
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        font-family: "Inter";
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.025em;
+
+        &:active,
+        &:hover {
+          color: #120e14;
+          background-color: #e8e8e8;
+          transition: color 0.5s, background-color 0.5s;
+          cursor: pointer;
+        }
+      }
+
+      .address-date {
+        margin-top: 16px;
+
+        h2 {
+          padding: 0;
+          margin: 0;
+        }
+      }
+      h3 {
+        color: #c00c2b;
+        font-family: "Inter";
+        text-align: center;
+        letter-spacing: -0.045em;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0;
+        margin: 0;
+        margin-top: 18px;
+      }
+    }
+
+    .hero-right-bottom {
+      margin-bottom: 9%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a.bottom-link {
+        text-decoration: none;
+        font-family: "Inter";
+        margin-left: 13px;
+        margin-right: 13px;
+        font-size: 16px;
+        color: #c00c2b;
+        box-sizing: border-box;
+        border-bottom: 1px dotted transparent;
+
+        &:hover {
+          border-bottom: 1px dotted #c00c2b;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .container-hero {
+    .hero-left {
+      display: none;
+    }
+
+    .hero-right {
+      width: 100%;
+
+      .hero-right-top {
+        margin-top: 10%;
+      }
+
+      .hero-right-bottom {
+        margin-bottom: 5%;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .container-hero {
+    .hero-right {
+      .hero-right-top {
+        margin-top: 20%;
+      }
+      .hero-right-bottom {
+        a.bottom-link {
+          font-size: 12px;
+        }
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a.bottom-link {
+          margin-left: 8px;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+@import "colors";
+@import "iosevka";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+button,
+td {
+  font-family: "Inter";
+  letter-spacing: -0.045em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+.hero--title {
+  font-family: "Iosevka Web";
+  font-weight: 900;
+  font-size: 80px;
+  margin-top: 200px;
+  color: $honor-white;
+  line-height: 136.9%;
+}
+
+.hero--subtitle {
+  color: $honor-white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 17px;
+}
+
+.hero--button {
+  background-color: transparent;
+  color: $honor-white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 50px;
+  margin-top: 33px;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 12px;
+
+  &:hover {
+    background-color: $honor-white;
+    color: $blacktop-gray;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+}
+
+.hero--address {
+  color: $honor-white;
+  text-align: center;
+  margin-top: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.faq--title {
+  color: $honor-white;
+  text-align: left;
+  max-width: 535px;
+
+  margin-left: 78px;
+  margin-top: 84px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 93.9%;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
+.faq--columns__column__p--title {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 93.9%;
+}
+
+.schedule--title {
+    color: $blacktop-gray;
+    text-align: left;
+    max-width: 535px;
+  
+    margin-left: 78px;
+    margin-top: 84px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 93.9%;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+  }
+  
+
+.footer--title {
+    font-family: "Iosevka Web";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 136.9%;   
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 61px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid $honor-white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: -0.045em;  
+  animation: typing 2s steps(38, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 517.083px;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: $honor-white;
+  }
+}

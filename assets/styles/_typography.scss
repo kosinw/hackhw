@@ -1,5 +1,6 @@
 @import "colors";
 @import "iosevka";
+@import "inter";
 
 h1,
 h2,
@@ -14,12 +15,13 @@ button,
 td {
   font-family: "Inter";
   letter-spacing: -0.045em;
+  font-display: swap;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    font-family: inherit;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
 }
 
 .hero--title {
@@ -79,50 +81,89 @@ a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  font-size: 54px;
+  font-size: 44px;
   line-height: 93.9%;
   letter-spacing: -0.025em;
   text-transform: uppercase;
 }
 
 .faq--columns__column__p--title {
-  font-style: italic;
+  font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 93.9%;
+  // font-size: 20px;
+  line-height: 95.9%;
 }
 
 .schedule--title {
-    color: $blacktop-gray;
-    text-align: left;
-    max-width: 535px;
-  
-    margin-left: 78px;
-    margin-top: 84px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 54px;
-    line-height: 93.9%;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-  }
-  
+  color: $blacktop-gray;
+  text-align: left;
+  max-width: 535px;
+
+  margin-left: 78px;
+  margin-top: 84px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 93.9%;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
+.sponsors--title {
+  text-align: left;
+  max-width: 535px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 93.9%;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
+.sponsors--subtitle {
+  letter-spacing: -0.025em;
+
+  margin-top: 30px;
+  line-height: 22px;
+}
 
 .footer--title {
-    font-family: "Iosevka Web";
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 136.9%;   
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 61px;
+  font-family: "Iosevka Web";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 136.9%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 61px;
 
-    &:hover {
-        cursor: pointer;
-    }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.sponsors--button {
+  background-color: #18a3fa;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 50px;
+  margin-top: 33px;
+  width: 333px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 50px;
+
+  &:hover {
+    background-color: $honor-white;
+    color: $blacktop-gray;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
 }
 
 .typewriter {
@@ -130,7 +171,7 @@ a {
   border-right: 0.15em solid $honor-white; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: -0.045em;  
+  letter-spacing: -0.045em;
   animation: typing 2s steps(38, end), blink-caret 0.75s step-end infinite;
 }
 

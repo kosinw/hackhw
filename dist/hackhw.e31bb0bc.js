@@ -118,13 +118,6 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"index.js":[function(require,module,exports) {
-// Scroll certain amounts from current position 
-window.scroll({
-  top: 50,
-  // could be negative value
-  left: 0,
-  behavior: 'smooth'
-});
 footer_title.addEventListener('click', function () {
   document.querySelector('.hero').scrollIntoView({
     behavior: 'smooth'
@@ -158,7 +151,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62696" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51530" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

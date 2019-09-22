@@ -1,381 +1,3 @@
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url("/Inter-Thin-BETA.3a1f9f12.woff2") format("woff2"), url("/Inter-Thin-BETA.7dfa0872.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 100;
-  font-display: swap;
-  src: url("/Inter-ThinItalic-BETA.4609a2a3.woff2") format("woff2"), url("/Inter-ThinItalic-BETA.a8b0f8e4.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url("/Inter-ExtraLight-BETA.fd78f45a.woff2") format("woff2"), url("/Inter-ExtraLight-BETA.6333d43f.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 200;
-  font-display: swap;
-  src: url("/Inter-ExtraLightItalic-BETA.e0625382.woff2") format("woff2"), url("/Inter-ExtraLightItalic-BETA.646e221d.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url("/Inter-Light-BETA.f9fcb645.woff2") format("woff2"), url("/Inter-Light-BETA.59c61822.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 300;
-  font-display: swap;
-  src: url("/Inter-LightItalic-BETA.58676cb3.woff2") format("woff2"), url("/Inter-LightItalic-BETA.461b5137.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/Inter-Regular.e9f4f820.woff2") format("woff2"), url("/Inter-Regular.cac5fc8b.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/Inter-Italic.164ad004.woff2") format("woff2"), url("/Inter-Italic.f3bde4f8.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("/Inter-Medium.76c67fcd.woff2") format("woff2"), url("/Inter-Medium.b0cff093.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 500;
-  font-display: swap;
-  src: url("/Inter-MediumItalic.0c9ca81e.woff2") format("woff2"), url("/Inter-MediumItalic.6e2e41d6.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("/Inter-SemiBold.73efc0f4.woff2") format("woff2"), url("/Inter-SemiBold.878e707a.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 600;
-  font-display: swap;
-  src: url("/Inter-SemiBoldItalic.d716935e.woff2") format("woff2"), url("/Inter-SemiBoldItalic.029980ff.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("/Inter-Bold.c83b61b3.woff2") format("woff2"), url("/Inter-Bold.383cd61c.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url("/Inter-BoldItalic.c7b01a52.woff2") format("woff2"), url("/Inter-BoldItalic.fbf3f070.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url("/Inter-ExtraBold.211a8313.woff2") format("woff2"), url("/Inter-ExtraBold.3a9d8901.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 800;
-  font-display: swap;
-  src: url("/Inter-ExtraBoldItalic.74a88be6.woff2") format("woff2"), url("/Inter-ExtraBoldItalic.59a06825.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("/Inter-Black.0c42b71d.woff2") format("woff2"), url("/Inter-Black.a0ff7221.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 900;
-  font-display: swap;
-  src: url("/Inter-BlackItalic.44fe62ae.woff2") format("woff2"), url("/Inter-BlackItalic.4f3ba457.woff") format("woff");
-}
-/* -------------------------------------------------------
-Variable font.
-Usage:
-
-  html { font-family: 'Inter', sans-serif; }
-  @supports (font-variation-settings: normal) {
-    html { font-family: 'Inter var', sans-serif; }
-  }
-*/
-@font-face {
-  font-family: "Inter var";
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: "Regular";
-  src: url("/Inter-upright.var.9e26be32.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Inter var";
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: italic;
-  font-named-instance: "Italic";
-  src: url("/Inter-italic.var.45d6a94c.woff2") format("woff2");
-}
-/* --------------------------------------------------------------------------
-[EXPERIMENTAL] Multi-axis, single variable font.
-
-Slant axis is not yet widely supported (as of February 2019) and thus this
-multi-axis single variable font is opt-in rather than the default.
-
-When using this, you will probably need to set font-variation-settings
-explicitly, e.g.
-
-  * { font-variation-settings: "slnt" 0deg }
-  .italic { font-variation-settings: "slnt" 10deg }
-
-*/
-@font-face {
-  font-family: "Inter var experimental";
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: oblique 0deg 10deg;
-  src: url("/Inter.var.a3854e6a.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 100;
-  font-style: normal;
-  src: url("/iosevka-thin.7f209da3.woff2") format("woff2"), url("/iosevka-thin.3a903904.woff") format("woff"), url("/iosevka-thin.15365f60.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 100;
-  font-style: oblique;
-  src: url("/iosevka-thinoblique.dc296de3.woff2") format("woff2"), url("/iosevka-thinoblique.a7fd5dd4.woff") format("woff"), url("/iosevka-thinoblique.e81e29b3.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 100;
-  src: url("/iosevka-thinoblique.dc296de3.woff2") format("woff2"), url("/iosevka-thinoblique.a7fd5dd4.woff") format("woff"), url("/iosevka-thinoblique.e81e29b3.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 100;
-  font-style: italic;
-  src: url("/iosevka-thinitalic.4c08a4c5.woff2") format("woff2"), url("/iosevka-thinitalic.872a35b7.woff") format("woff"), url("/iosevka-thinitalic.6b4d449a.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 200;
-  font-style: normal;
-  src: url("/iosevka-extralight.a2d2a7df.woff2") format("woff2"), url("/iosevka-extralight.7d743f04.woff") format("woff"), url("/iosevka-extralight.051077c4.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 200;
-  font-style: oblique;
-  src: url("/iosevka-extralightoblique.09a0dbb8.woff2") format("woff2"), url("/iosevka-extralightoblique.048b7883.woff") format("woff"), url("/iosevka-extralightoblique.18be775e.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 200;
-  src: url("/iosevka-extralightoblique.09a0dbb8.woff2") format("woff2"), url("/iosevka-extralightoblique.048b7883.woff") format("woff"), url("/iosevka-extralightoblique.18be775e.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 200;
-  font-style: italic;
-  src: url("/iosevka-extralightitalic.d23d28a2.woff2") format("woff2"), url("/iosevka-extralightitalic.258d3451.woff") format("woff"), url("/iosevka-extralightitalic.28086e39.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 300;
-  font-style: normal;
-  src: url("/iosevka-light.2feaab12.woff2") format("woff2"), url("/iosevka-light.9dc8494b.woff") format("woff"), url("/iosevka-light.3494a25c.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 300;
-  font-style: oblique;
-  src: url("/iosevka-lightoblique.700f5ae0.woff2") format("woff2"), url("/iosevka-lightoblique.1d98f219.woff") format("woff"), url("/iosevka-lightoblique.a574d612.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 300;
-  src: url("/iosevka-lightoblique.700f5ae0.woff2") format("woff2"), url("/iosevka-lightoblique.1d98f219.woff") format("woff"), url("/iosevka-lightoblique.a574d612.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 300;
-  font-style: italic;
-  src: url("/iosevka-lightitalic.689f90d9.woff2") format("woff2"), url("/iosevka-lightitalic.6039fde9.woff") format("woff"), url("/iosevka-lightitalic.f174d468.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 400;
-  font-style: normal;
-  src: url("/iosevka-regular.91b05bef.woff2") format("woff2"), url("/iosevka-regular.5b8e930a.woff") format("woff"), url("/iosevka-regular.71d7cf70.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 400;
-  font-style: oblique;
-  src: url("/iosevka-oblique.a8c449c0.woff2") format("woff2"), url("/iosevka-oblique.42ba380c.woff") format("woff"), url("/iosevka-oblique.8702d15b.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 400;
-  src: url("/iosevka-oblique.a8c449c0.woff2") format("woff2"), url("/iosevka-oblique.42ba380c.woff") format("woff"), url("/iosevka-oblique.8702d15b.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 400;
-  font-style: italic;
-  src: url("/iosevka-italic.a671c266.woff2") format("woff2"), url("/iosevka-italic.b01b041d.woff") format("woff"), url("/iosevka-italic.180f3972.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 500;
-  font-style: normal;
-  src: url("/iosevka-medium.94da1313.woff2") format("woff2"), url("/iosevka-medium.752030f3.woff") format("woff"), url("/iosevka-medium.ba36df62.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 500;
-  font-style: oblique;
-  src: url("/iosevka-mediumoblique.42f5ea09.woff2") format("woff2"), url("/iosevka-mediumoblique.6cfe25ca.woff") format("woff"), url("/iosevka-mediumoblique.786bdade.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 500;
-  src: url("/iosevka-mediumoblique.42f5ea09.woff2") format("woff2"), url("/iosevka-mediumoblique.6cfe25ca.woff") format("woff"), url("/iosevka-mediumoblique.786bdade.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 500;
-  font-style: italic;
-  src: url("/iosevka-mediumitalic.f8286dd6.woff2") format("woff2"), url("/iosevka-mediumitalic.35f3fa6a.woff") format("woff"), url("/iosevka-mediumitalic.0e5b9229.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 600;
-  font-style: normal;
-  src: url("/iosevka-semibold.843c7fb2.woff2") format("woff2"), url("/iosevka-semibold.abd7fd87.woff") format("woff"), url("/iosevka-semibold.3d39f091.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 600;
-  font-style: oblique;
-  src: url("/iosevka-semiboldoblique.1b2c3b91.woff2") format("woff2"), url("/iosevka-semiboldoblique.3d5159ed.woff") format("woff"), url("/iosevka-semiboldoblique.572f07d4.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 600;
-  src: url("/iosevka-semiboldoblique.1b2c3b91.woff2") format("woff2"), url("/iosevka-semiboldoblique.3d5159ed.woff") format("woff"), url("/iosevka-semiboldoblique.572f07d4.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 600;
-  font-style: italic;
-  src: url("/iosevka-semibolditalic.b3dd9448.woff2") format("woff2"), url("/iosevka-semibolditalic.d0721f28.woff") format("woff"), url("/iosevka-semibolditalic.039929d2.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 700;
-  font-style: normal;
-  src: url("/iosevka-bold.72d653b6.woff2") format("woff2"), url("/iosevka-bold.986bebc1.woff") format("woff"), url("/iosevka-bold.ee07e89d.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 700;
-  font-style: oblique;
-  src: url("/iosevka-boldoblique.beeeef97.woff2") format("woff2"), url("/iosevka-boldoblique.87d65ec5.woff") format("woff"), url("/iosevka-boldoblique.123627b1.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 700;
-  src: url("/iosevka-boldoblique.beeeef97.woff2") format("woff2"), url("/iosevka-boldoblique.87d65ec5.woff") format("woff"), url("/iosevka-boldoblique.123627b1.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 700;
-  font-style: italic;
-  src: url("/iosevka-bolditalic.ab0c3f36.woff2") format("woff2"), url("/iosevka-bolditalic.99376702.woff") format("woff"), url("/iosevka-bolditalic.a33701de.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 800;
-  font-style: normal;
-  src: url("/iosevka-extrabold.2f6dbbdf.woff2") format("woff2"), url("/iosevka-extrabold.39de8e25.woff") format("woff"), url("/iosevka-extrabold.61647964.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 800;
-  font-style: oblique;
-  src: url("/iosevka-extraboldoblique.5107d9ba.woff2") format("woff2"), url("/iosevka-extraboldoblique.8e2f1b64.woff") format("woff"), url("/iosevka-extraboldoblique.c98eb5f7.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 800;
-  src: url("/iosevka-extraboldoblique.5107d9ba.woff2") format("woff2"), url("/iosevka-extraboldoblique.8e2f1b64.woff") format("woff"), url("/iosevka-extraboldoblique.c98eb5f7.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 800;
-  font-style: italic;
-  src: url("/iosevka-extrabolditalic.fdd6ca28.woff2") format("woff2"), url("/iosevka-extrabolditalic.21b3bff3.woff") format("woff"), url("/iosevka-extrabolditalic.28340e21.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 900;
-  font-style: normal;
-  src: url("/iosevka-heavy.ea44c37b.woff2") format("woff2"), url("/iosevka-heavy.f0df914c.woff") format("woff"), url("/iosevka-heavy.080d65e3.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 900;
-  font-style: oblique;
-  src: url("/iosevka-heavyoblique.d81019e5.woff2") format("woff2"), url("/iosevka-heavyoblique.b65098f4.woff") format("woff"), url("/iosevka-heavyoblique.cb2c2886.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 900;
-  src: url("/iosevka-heavyoblique.d81019e5.woff2") format("woff2"), url("/iosevka-heavyoblique.b65098f4.woff") format("woff"), url("/iosevka-heavyoblique.cb2c2886.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 900;
-  font-style: italic;
-  src: url("/iosevka-heavyitalic.506ef96a.woff2") format("woff2"), url("/iosevka-heavyitalic.1cf76834.woff") format("woff"), url("/iosevka-heavyitalic.eb69c066.ttf") format("truetype");
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -423,210 +45,135 @@ table {
 
 @font-face {
   font-family: "Iosevka Web";
-  font-weight: 100;
-  font-style: normal;
-  src: url("/iosevka-thin.7f209da3.woff2") format("woff2"), url("/iosevka-thin.3a903904.woff") format("woff"), url("/iosevka-thin.15365f60.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 100;
-  font-style: oblique;
-  src: url("/iosevka-thinoblique.dc296de3.woff2") format("woff2"), url("/iosevka-thinoblique.a7fd5dd4.woff") format("woff"), url("/iosevka-thinoblique.e81e29b3.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 100;
-  src: url("/iosevka-thinoblique.dc296de3.woff2") format("woff2"), url("/iosevka-thinoblique.a7fd5dd4.woff") format("woff"), url("/iosevka-thinoblique.e81e29b3.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 100;
-  font-style: italic;
-  src: url("/iosevka-thinitalic.4c08a4c5.woff2") format("woff2"), url("/iosevka-thinitalic.872a35b7.woff") format("woff"), url("/iosevka-thinitalic.6b4d449a.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 200;
-  font-style: normal;
-  src: url("/iosevka-extralight.a2d2a7df.woff2") format("woff2"), url("/iosevka-extralight.7d743f04.woff") format("woff"), url("/iosevka-extralight.051077c4.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 200;
-  font-style: oblique;
-  src: url("/iosevka-extralightoblique.09a0dbb8.woff2") format("woff2"), url("/iosevka-extralightoblique.048b7883.woff") format("woff"), url("/iosevka-extralightoblique.18be775e.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 200;
-  src: url("/iosevka-extralightoblique.09a0dbb8.woff2") format("woff2"), url("/iosevka-extralightoblique.048b7883.woff") format("woff"), url("/iosevka-extralightoblique.18be775e.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 200;
-  font-style: italic;
-  src: url("/iosevka-extralightitalic.d23d28a2.woff2") format("woff2"), url("/iosevka-extralightitalic.258d3451.woff") format("woff"), url("/iosevka-extralightitalic.28086e39.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 300;
-  font-style: normal;
-  src: url("/iosevka-light.2feaab12.woff2") format("woff2"), url("/iosevka-light.9dc8494b.woff") format("woff"), url("/iosevka-light.3494a25c.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 300;
-  font-style: oblique;
-  src: url("/iosevka-lightoblique.700f5ae0.woff2") format("woff2"), url("/iosevka-lightoblique.1d98f219.woff") format("woff"), url("/iosevka-lightoblique.a574d612.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 300;
-  src: url("/iosevka-lightoblique.700f5ae0.woff2") format("woff2"), url("/iosevka-lightoblique.1d98f219.woff") format("woff"), url("/iosevka-lightoblique.a574d612.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 300;
-  font-style: italic;
-  src: url("/iosevka-lightitalic.689f90d9.woff2") format("woff2"), url("/iosevka-lightitalic.6039fde9.woff") format("woff"), url("/iosevka-lightitalic.f174d468.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 400;
-  font-style: normal;
-  src: url("/iosevka-regular.91b05bef.woff2") format("woff2"), url("/iosevka-regular.5b8e930a.woff") format("woff"), url("/iosevka-regular.71d7cf70.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 400;
-  font-style: oblique;
-  src: url("/iosevka-oblique.a8c449c0.woff2") format("woff2"), url("/iosevka-oblique.42ba380c.woff") format("woff"), url("/iosevka-oblique.8702d15b.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 400;
-  src: url("/iosevka-oblique.a8c449c0.woff2") format("woff2"), url("/iosevka-oblique.42ba380c.woff") format("woff"), url("/iosevka-oblique.8702d15b.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 400;
-  font-style: italic;
-  src: url("/iosevka-italic.a671c266.woff2") format("woff2"), url("/iosevka-italic.b01b041d.woff") format("woff"), url("/iosevka-italic.180f3972.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 500;
-  font-style: normal;
-  src: url("/iosevka-medium.94da1313.woff2") format("woff2"), url("/iosevka-medium.752030f3.woff") format("woff"), url("/iosevka-medium.ba36df62.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 500;
-  font-style: oblique;
-  src: url("/iosevka-mediumoblique.42f5ea09.woff2") format("woff2"), url("/iosevka-mediumoblique.6cfe25ca.woff") format("woff"), url("/iosevka-mediumoblique.786bdade.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 500;
-  src: url("/iosevka-mediumoblique.42f5ea09.woff2") format("woff2"), url("/iosevka-mediumoblique.6cfe25ca.woff") format("woff"), url("/iosevka-mediumoblique.786bdade.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 500;
-  font-style: italic;
-  src: url("/iosevka-mediumitalic.f8286dd6.woff2") format("woff2"), url("/iosevka-mediumitalic.35f3fa6a.woff") format("woff"), url("/iosevka-mediumitalic.0e5b9229.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 600;
-  font-style: normal;
-  src: url("/iosevka-semibold.843c7fb2.woff2") format("woff2"), url("/iosevka-semibold.abd7fd87.woff") format("woff"), url("/iosevka-semibold.3d39f091.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 600;
-  font-style: oblique;
-  src: url("/iosevka-semiboldoblique.1b2c3b91.woff2") format("woff2"), url("/iosevka-semiboldoblique.3d5159ed.woff") format("woff"), url("/iosevka-semiboldoblique.572f07d4.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 600;
-  src: url("/iosevka-semiboldoblique.1b2c3b91.woff2") format("woff2"), url("/iosevka-semiboldoblique.3d5159ed.woff") format("woff"), url("/iosevka-semiboldoblique.572f07d4.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 600;
-  font-style: italic;
-  src: url("/iosevka-semibolditalic.b3dd9448.woff2") format("woff2"), url("/iosevka-semibolditalic.d0721f28.woff") format("woff"), url("/iosevka-semibolditalic.039929d2.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 700;
-  font-style: normal;
-  src: url("/iosevka-bold.72d653b6.woff2") format("woff2"), url("/iosevka-bold.986bebc1.woff") format("woff"), url("/iosevka-bold.ee07e89d.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 700;
-  font-style: oblique;
-  src: url("/iosevka-boldoblique.beeeef97.woff2") format("woff2"), url("/iosevka-boldoblique.87d65ec5.woff") format("woff"), url("/iosevka-boldoblique.123627b1.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 700;
-  src: url("/iosevka-boldoblique.beeeef97.woff2") format("woff2"), url("/iosevka-boldoblique.87d65ec5.woff") format("woff"), url("/iosevka-boldoblique.123627b1.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 700;
-  font-style: italic;
-  src: url("/iosevka-bolditalic.ab0c3f36.woff2") format("woff2"), url("/iosevka-bolditalic.99376702.woff") format("woff"), url("/iosevka-bolditalic.a33701de.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 800;
-  font-style: normal;
-  src: url("/iosevka-extrabold.2f6dbbdf.woff2") format("woff2"), url("/iosevka-extrabold.39de8e25.woff") format("woff"), url("/iosevka-extrabold.61647964.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 800;
-  font-style: oblique;
-  src: url("/iosevka-extraboldoblique.5107d9ba.woff2") format("woff2"), url("/iosevka-extraboldoblique.8e2f1b64.woff") format("woff"), url("/iosevka-extraboldoblique.c98eb5f7.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 800;
-  src: url("/iosevka-extraboldoblique.5107d9ba.woff2") format("woff2"), url("/iosevka-extraboldoblique.8e2f1b64.woff") format("woff"), url("/iosevka-extraboldoblique.c98eb5f7.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 800;
-  font-style: italic;
-  src: url("/iosevka-extrabolditalic.fdd6ca28.woff2") format("woff2"), url("/iosevka-extrabolditalic.21b3bff3.woff") format("woff"), url("/iosevka-extrabolditalic.28340e21.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
   font-weight: 900;
   font-style: normal;
-  src: url("/iosevka-heavy.ea44c37b.woff2") format("woff2"), url("/iosevka-heavy.f0df914c.woff") format("woff"), url("/iosevka-heavy.080d65e3.ttf") format("truetype");
+  src: url("/iosevkaheavy.f2dafc22.woff") format("woff");
 }
 @font-face {
-  font-family: "Iosevka Web";
-  font-weight: 900;
-  font-style: oblique;
-  src: url("/iosevka-heavyoblique.d81019e5.woff2") format("woff2"), url("/iosevka-heavyoblique.b65098f4.woff") format("woff"), url("/iosevka-heavyoblique.cb2c2886.ttf") format("truetype");
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("/Inter-Thin-BETA.9d162513.woff2") format("woff2"), url("/Inter-Thin-BETA.8a468cb0.woff") format("woff");
 }
 @font-face {
-  font-family: "Iosevka Web Oblique";
-  font-weight: 900;
-  src: url("/iosevka-heavyoblique.d81019e5.woff2") format("woff2"), url("/iosevka-heavyoblique.b65098f4.woff") format("woff"), url("/iosevka-heavyoblique.cb2c2886.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Iosevka Web";
-  font-weight: 900;
+  font-family: "Inter";
   font-style: italic;
-  src: url("/iosevka-heavyitalic.506ef96a.woff2") format("woff2"), url("/iosevka-heavyitalic.1cf76834.woff") format("woff"), url("/iosevka-heavyitalic.eb69c066.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+  src: url("/Inter-ThinItalic-BETA.b37bfb9c.woff2") format("woff2"), url("/Inter-ThinItalic-BETA.0c9e2ea8.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/Inter-ExtraLight-BETA.e34c6a24.woff2") format("woff2"), url("/Inter-ExtraLight-BETA.88f308fd.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/Inter-ExtraLightItalic-BETA.1767abe0.woff2") format("woff2"), url("/Inter-ExtraLightItalic-BETA.b4529b85.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/Inter-Light-BETA.bfd93a7b.woff2") format("woff2"), url("/Inter-Light-BETA.65dc0724.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/Inter-LightItalic-BETA.cceaaa4e.woff2") format("woff2"), url("/Inter-LightItalic-BETA.d3af0e41.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/Inter-Regular.2a8b980a.woff2") format("woff2"), url("/Inter-Regular.b2a97660.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/Inter-Italic.d7afb786.woff2") format("woff2"), url("/Inter-Italic.9e2c39da.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/Inter-Medium.eddf8508.woff2") format("woff2"), url("/Inter-Medium.d1003419.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/Inter-MediumItalic.8e9af34c.woff2") format("woff2"), url("/Inter-MediumItalic.22c374e0.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/Inter-SemiBold.9822dd5a.woff2") format("woff2"), url("/Inter-SemiBold.0c49a2a3.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/Inter-SemiBoldItalic.2bb0ebba.woff2") format("woff2"), url("/Inter-SemiBoldItalic.0935e418.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/Inter-Bold.fe94ba6e.woff2") format("woff2"), url("/Inter-Bold.748bd052.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/Inter-BoldItalic.a015839e.woff2") format("woff2"), url("/Inter-BoldItalic.6e8b7586.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/Inter-ExtraBold.f278c99f.woff2") format("woff2"), url("/Inter-ExtraBold.64810dc4.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/Inter-ExtraBoldItalic.c927b464.woff2") format("woff2"), url("/Inter-ExtraBoldItalic.757dd93c.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/Inter-Black.291e26c6.woff2") format("woff2"), url("/Inter-Black.d5737819.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/Inter-BlackItalic.b92a4841.woff2") format("woff2"), url("/Inter-BlackItalic.f47e6240.woff") format("woff");
 }
 h1,
 h2,
@@ -641,6 +188,7 @@ button,
 td {
   font-family: "Inter";
   letter-spacing: -0.045em;
+  font-display: swap;
 }
 
 a {
@@ -703,17 +251,16 @@ a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  font-size: 54px;
+  font-size: 44px;
   line-height: 93.9%;
   letter-spacing: -0.025em;
   text-transform: uppercase;
 }
 
 .faq--columns__column__p--title {
-  font-style: italic;
+  font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 93.9%;
+  line-height: 95.9%;
 }
 
 .schedule--title {
@@ -725,10 +272,28 @@ a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  font-size: 54px;
+  font-size: 44px;
   line-height: 93.9%;
   letter-spacing: -0.025em;
   text-transform: uppercase;
+}
+
+.sponsors--title {
+  text-align: left;
+  max-width: 535px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 93.9%;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
+.sponsors--subtitle {
+  letter-spacing: -0.025em;
+  margin-top: 30px;
+  line-height: 22px;
 }
 
 .footer--title {
@@ -742,6 +307,25 @@ a {
   margin-left: 61px;
 }
 .footer--title:hover {
+  cursor: pointer;
+}
+
+.sponsors--button {
+  background-color: #18a3fa;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 50px;
+  margin-top: 33px;
+  width: 333px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+.sponsors--button:hover {
+  background-color: #e8e8e8;
+  color: #120e14;
+  transition: all 0.2s;
   cursor: pointer;
 }
 
@@ -785,13 +369,17 @@ body {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hero {
   background-color: #120e14;
   color: #e8e8e8;
   width: 100%;
-  min-height: 888px;
+  min-height: 800px;
   background-image: url(/hero-beam.6227f701.svg), url(/hero-waves.bc26d4e5.svg);
-  background-position: center 0;
+  background-position: center -5em;
   background-repeat: no-repeat;
   background-size: 1040px, 100%;
 }
@@ -908,6 +496,35 @@ body {
 .schedule--table tr td {
   padding-top: 10px;
   text-align: center;
+}
+
+.sponsors {
+  color: #120e14;
+  background-color: #FFFFFF;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sponsors--title-container {
+  margin-left: 78px;
+  margin-top: 84px;
+}
+
+.sponsors--images-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  width: 100%;
+}
+
+.sponsors--image {
+  margin: 0 40px;
+}
+.sponsors--image img {
+  width: 100px;
 }
 
 footer {

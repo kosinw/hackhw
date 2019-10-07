@@ -378,7 +378,7 @@ html {
   color: #e8e8e8;
   width: 100%;
   min-height: 800px;
-  background-image: url(/hero-beam.6227f701.svg), url(/hero-waves.bc26d4e5.svg);
+  background-image: url(/hero-beam.6227f701.svg);
   background-position: center -5em;
   background-repeat: no-repeat;
   background-size: 1040px, 100%;
@@ -397,7 +397,6 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/faq-waves.2eb0ac87.svg);
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -440,7 +439,6 @@ html {
 .schedule {
   background-color: #e8e8e8;
   color: #120e14;
-  background-image: url(/schedule-waves.055bdee2.svg);
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: 100%;

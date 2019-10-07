@@ -21,7 +21,8 @@ html {
   width: 100%;
   min-height: 800px;
 
-  background-image: url(../svgs/hero-beam.svg), url(../svgs/hero-waves.svg);
+  // background-image: url(../svgs/hero-beam.svg), url(../svgs/hero-waves.svg);
+  background-image: url(../svgs/hero-beam.svg);
   background-position: center -5em;
   background-repeat: no-repeat;
   background-size: 1040px, 100%;
@@ -42,7 +43,7 @@ html {
   flex-direction: column;
   align-items: center;
 
-  background-image: url(../svgs/faq-waves.svg);
+  // background-image: url(../svgs/faq-waves.svg);
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -91,7 +92,7 @@ html {
   background-color: $honor-white;
   color: $blacktop-gray;
   
-  background-image: url(../svgs/schedule-waves.svg);
+  // background-image: url(../svgs/schedule-waves.svg);
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: 100%;

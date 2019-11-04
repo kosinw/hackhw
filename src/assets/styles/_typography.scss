@@ -24,6 +24,15 @@ a {
   font-family: inherit;
 }
 
+.hero--waitlist {
+  border-bottom: 2px dotted;
+
+  &:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}
+
 .hero--title {
   font-family: "Iosevka Web";
   font-weight: 900;
@@ -67,7 +76,7 @@ a {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 23px;
 }
 
 .faq--title {
@@ -181,7 +190,7 @@ a {
     width: 0;
   }
   to {
-    width: 517.083px;
+    width: 404.067px;
   }
 }
 

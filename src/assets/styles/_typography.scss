@@ -103,6 +103,15 @@ a {
   line-height: 95.9%;
 }
 
+.schedule--table-title {
+  font-weight: 800;
+  text-align: left;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
 .schedule--title {
   color: $blacktop-gray;
   text-align: left;
@@ -140,6 +149,19 @@ a {
   line-height: 22px;
 }
 
+.resources--title {
+  text-align: left;
+  max-width: 535px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 93.9%;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
 .footer--title {
   font-family: "Iosevka Web";
   font-weight: 900;
@@ -166,6 +188,35 @@ a {
   border: none;
   box-sizing: border-box;
   border-radius: 50px;
+
+  &:hover {
+    background-color: $honor-white;
+    color: $blacktop-gray;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+}
+
+.resources--subtitle {
+  letter-spacing: -0.025em;
+
+  margin-top: 30px;
+  line-height: 24px;
+}
+
+.resources--button {
+  font-family: Inter;
+
+  background-color: $wolverine-red;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 20px;
+  margin-top: 33px;
+  width: 50%;
+  border: none;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 45px;
 
   &:hover {
     background-color: $honor-white;

@@ -271,6 +271,15 @@ a {
   line-height: 95.9%;
 }
 
+.schedule--table-title {
+  font-weight: 800;
+  text-align: left;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
 .schedule--title {
   color: #120e14;
   text-align: left;
@@ -304,6 +313,18 @@ a {
   line-height: 22px;
 }
 
+.resources--title {
+  text-align: left;
+  max-width: 535px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 93.9%;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
 .footer--title {
   font-family: "Iosevka Web";
   font-weight: 900;
@@ -331,6 +352,32 @@ a {
   border-radius: 50px;
 }
 .sponsors--button:hover {
+  background-color: #e8e8e8;
+  color: #120e14;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.resources--subtitle {
+  letter-spacing: -0.025em;
+  margin-top: 30px;
+  line-height: 24px;
+}
+
+.resources--button {
+  font-family: Inter;
+  background-color: #c00c2b;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 20px;
+  margin-top: 33px;
+  width: 50%;
+  border: none;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 45px;
+}
+.resources--button:hover {
   background-color: #e8e8e8;
   color: #120e14;
   transition: all 0.2s;
@@ -467,7 +514,8 @@ a .disabled {
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 100%;
+  min-height: 1400px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -480,7 +528,7 @@ a .disabled {
 
 .schedule--tables {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   justify-content: center;
   margin-top: 66px;
@@ -488,20 +536,13 @@ a .disabled {
 
 .schedule--table-container {
   padding: 0 15px;
-  width: 600px;
+  width: 750px;
   height: 600px;
   margin: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.schedule--table-title {
-  font-weight: 700;
-  font-size: 32px;
-  margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 .schedule--table {
@@ -517,13 +558,23 @@ a .disabled {
   border-bottom: none;
 }
 .schedule--table tr td {
-  padding-top: 10px;
-  text-align: center;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
 }
 
 .sponsors {
   color: #120e14;
   background-color: #ffffff;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.resources {
+  background-color: #3B3E43;
+  color: #fff;
   min-height: 400px;
   display: flex;
   flex-direction: row;
@@ -548,6 +599,26 @@ a .disabled {
 }
 .sponsors--image img {
   width: 100px;
+}
+
+.resources--title-container {
+  margin-left: 78px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 84px;
+}
+
+.resources--icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  margin-left: 200px;
+}
+
+.resources--icon {
+  margin: 0 40px;
 }
 
 footer {

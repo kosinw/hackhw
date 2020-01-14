@@ -5,9 +5,9 @@
 body {
   width: 100%;
 
-  @media all and (max-width: 1040px) {
-    width: 1040px;
-  }
+//   @media all and (max-width: 1040px) {
+//     width: 1040px;
+//   }
 }
 
 html {
@@ -38,7 +38,8 @@ html {
   color: $honor-white;
 
   width: 100%;
-  min-height: 800px;
+  height: 100vh;
+//   min-height: 800px;	
 
   // background-image: url(../svgs/hero-beam.svg), url(../svgs/hero-waves.svg);
   background-image: url(../svgs/hero-beam.svg);
